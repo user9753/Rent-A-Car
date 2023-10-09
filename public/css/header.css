@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  overflow-x: hidden;
+  width:100%;
+  background: linear-gradient(90deg, rgba(84,84,84,1) 7%, rgba(61,61,61,1) 31%, rgba(68,68,68,1) 55%, rgba(43,43,43,1) 83%);}
+
+.container{
+  max-width: 1420px;
+  margin: auto;
+}
+
+.prijava{
+  float: right;
+}
+
+header {
+background: black;
+text-decoration: none;
+font-size: 18px;
+padding-top: 15px;
+position: relative;
+}
+
+nav {
+padding: 15px;
+width: 100%;
+z-index: 1;
+position: relative;
+}
+nav.fixed-nav {
+position: fixed;
+top: 0;
+transition: 0.3s;
+}
+@media (max-width: 763px) {
+nav.fixed-nav {
+  position: initial;
+}
+}
+nav .hamburger-menu-button {
+background-color: transparent;
+border: none;
+font-size: 38px;
+color: #fff;
+display: none;
+outline: none;
+}
+nav .fa-times {
+display: none;
+}
+nav.opened .fa-times {
+display: block;
+}
+nav.opened .fa-bars {
+display: none;
+}
+@media (max-width: 763px) {
+nav {
+  display: block;
+}
+}
+
+ul {
+display: block;
+background: transparent;
+list-style-type: none;
+padding-top: 20px;
+overflow: hidden;
+}
+@media (max-width: 763px) {
+ul {
+  display: none;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  left: 0;
+  right: 0;
+}
+}
+ul li {
+display: inline-block;
+margin-left: 30px;
+position: relative;
+color: #fff;
+top: 0px;
+}
+ul li #desno {
+float: right;
+}
+@media (max-width: 763px) {
+ul li {
+  margin-left: 0;
+}
+}
+ul li:first-child {
+top: 0px;
+}
+@media (max-width: 763px) {
+ul li .hamburger-menu-button {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+}
+ul li a {
+color: #fff;
+font-size: 16px;
+text-transform: uppercase;
+text-decoration: none;
+}
+@media (max-width: 991px) {
+ul li a {
+  font-size: 20px;
+}
+}
+ul li a:hover:after {
+background-color: #fff;
+}
+
+.dropbtn {
+color: white;
+/* padding: 16px; */
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+z-index: 1; 
+}
+
+.dropdown-content button {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content button:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.dropbtn i::after {
+content: "▾";
+margin-left: 5px;
+}
+
+.dropdown:hover .dropbtn i::after {
+content: "▴";
+margin-top: 8px;
+}
+
+.logout {
+background-color: transparent;
+border: none;
+padding: 0;
+font-size: 16px;
+text-align: left;
+}
+
+.logout:hover {
+background-color: #f1f1f1;
+}
+
+.logout a {
+color: black;
+text-decoration: none;
+}
+
+.logout a:hover {
+text-decoration: underline;
+}
+
+   
+.dropdugme {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdole {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdole-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdole-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdole-content a:hover {
+  background-color: black;
+}
+
+.dropdole:hover .dropdole-content {
+  display: block;
+}
+
+.dropdole:focus-within .dropdole-content {
+  display: block;
+}

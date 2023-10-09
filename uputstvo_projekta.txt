@@ -1,0 +1,41 @@
+Pokretanje projekta: 
+
+1.Pokrenuti xamp/wamp
+2.Otvoriti projekat u Visual Studio
+3.Pokrenuti(u  terminalu): composer update 
+4.Pokrenuti: php artisan migrate
+5.Pokrenuti: php artisan db:seed
+7.Pokrenuti: php artisan serve
+
+Korisnikov interfejs:
+1.Korisnik moze da pogleda podatke o firmi ,,Rent a car"
+2.Moze da kontaktira menadžera ukoliko ima nekih pitanja (stranica Kontakt) 
+3.Moze da kreira profil (stranica Prijavi se -> Register)
+4.Moze da sortira po ceni vozila (stranica Vozila)
+5.Klikom na dugme ,,Detalji ponude" (koje se nalazi ispod vozila koje je korisnik odabrao) korisnik ce dobiti detaljne informacije o tom vozilu
+6.Ukoliko korisniku odgovara vozilo, on moze da ga rezervise biranjem datuma za period zakupa
+7.Klikom na dugme rezevisi, korisnikov zahtev se salje menadzeru na obradu
+
+Menadzerov interfejs:
+1.Menadzer se prijavljuje (stranica Prijavi se, podaci: nikola.nikolic@gmail.com pw:nikola123)
+2.Klikom na stranicu Menager bice preusmeren na ovu stranicu
+3.Na ovoj stranici ima opciju Glavna, koja ga vodi na pocetnu stranicu
+4.Zatim ima opciju Zahtevi, uz pomoc koje prihvata ili odbija zahtev za rezervaciju koji je dobio od korisnika
+5.Ukoliko prihvati zahtev on ce se nalaziti na stranici Rezervacije, ovde isto menadzer moze da obrise rezervaciju, ukoliko korisnik odustane
+6.Moze da pregleda podatke o vozilima (stranica Vozila)
+7.Moze da pregleda podatke o korisnicima(stranica Korisnici)
+8.Moze da pregleda aktivnosti korisnika, i moze da izvrsi pretragu o aktivnostima korisnika na osnovu njegovog id-a
+
+
+Adminov interfejs: 
+1.Admin se prijavljuje (stranica Prijavi se, podaci: marko.markovic@gmail.com pw:marko123)
+2.Klikom na stranicu Admin bice preusmeren na ovu stranicu
+3.Na ovoj stranici ima opciju Glavna, koja ga vodi na pocetnu stranicu
+4.Zatim ima opciju Menadzeri, uz pomoc koje moze da ukloni menadzeru pristup 
+5.Na ovoj istoj stranici moze da doda novog Menadzera, klikom na dugme dodaj
+6.Na stranici Korisnici, moze da vidi korisnike
+7.Na stranici Vozila, korisnik moze da Dodaje, Obrise, ili izmeni vozila koje se prikazuje na korisnikovoj stranici Vozila
+8.Klikom na dugme ,,Dodaj vozilo" korisnik unosi podatke o vozilu i kreira novo vozilo
+9.Klikom na dugme ,,Izmeni" korisnik moze da izmeni podatke o vozilu
+10.Klikom na dugme ,,Obrisi" korisnik moze da obrise vozilo
+11.Klikom na stranicu ,,Izvestaji" korisnik moze da preuzme izvestaje o Vozilima i Rezervacijama u pdf ili xlsx formatu

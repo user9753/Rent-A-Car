@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 0600px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    margin: 20px 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="submit"],
+  input[type="radio"] {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="radio"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"]:checked::before {
+    content: "\2022";
+    font-size: 24px;
+    color: #0080FF;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  a {
+    color: #4CAF50;
+  }
+  
+  #error_surname {
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 10px;
+  }
+  
+  .error + input[type="submit"] {
+    margin-top: 20px;
+  }
+  

@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(90deg, rgb(84, 84, 84) 7%, rgb(61, 61, 61) 31%, rgb(68, 68, 68) 55%, rgb(43, 43, 43) 83%);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: white;
+    
+  }
+  
+  .rezervacija {
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    max-width: 400px;
+    border: 2px;
+    border-color: white;
+  }
+  .rezervacija .h5 {
+    padding: 20px;
+  }
+  
+  footer {
+    bottom: 0;
+  }

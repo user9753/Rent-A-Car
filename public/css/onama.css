@@ -1,0 +1,25 @@
+div.onama{
+    background: linear-gradient(90deg, rgb(84, 84, 84) 7%, rgb(61, 61, 61) 31%, rgb(68, 68, 68) 55%, rgb(43, 43, 43) 83%);
+    color:white;
+    }
+    
+    div.maps{
+        padding-bottom: 60px;
+    }
+    
+    div.slike div {
+        display: inline-block;
+        max-width: 270px;
+        max-height: 300px;
+    }
+    div.onamaslike{
+    text-align: center;
+    display: inline-block;
+    padding-top: 110px;
+    }
+    
+    div.opis_onama{
+        color: white;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
