@@ -4,7 +4,7 @@
 
 
 <div class="dropdown">
-  <button class="dropbtn"><i class="fa-solid fa-sort"></i> Sortiraj</button>
+  <button class="dropbtn"><i class="fa-solid">Sortiraj</i> </button>
   <div class="dropdown-content">
     <a href="{{ route('vozila', ['sort' => 'cena+ASC']) }}">Cena uzlazno <i class="fa-solid fa-arrow-up"></i></a>
     <a href="{{ route('vozila', ['sort' => 'cena+DESC']) }}">Cena silazno <i class="fa-solid fa-arrow-down"></i></a>

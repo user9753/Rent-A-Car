@@ -82,10 +82,10 @@
     <div class="col-md-4 col-sm-12"> 
         <p><b>Dodajte nas na društvenim mrežama!</b></p>
             <div class="social">
-                <a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
-                <a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a>
-                <a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>
-                <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+                <a href="https://www.instagram.com/" style="padding-top: 5px;"><i class="icon ion-social-instagram"></i></a>
+                <a href="https://www.snapchat.com/" style="padding-top: 5px;"><i class="icon ion-social-snapchat"></i></a>
+                <a href="https://twitter.com/" style="padding-top: 5px;"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://www.facebook.com/" style="padding-top: 5px;"><i class="icon ion-social-facebook"></i></a>
             </div>
      </div>
            
